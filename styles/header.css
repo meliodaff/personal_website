@@ -1,0 +1,67 @@
+/* .header1{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    font-family: Times New Roman;
+}
+
+.left-section{
+    display: flex;
+}
+
+.left-section div {
+    margin: 0 5px;
+    margin-top: 5px;
+    font-size: 35px;
+}
+*/
+.first-letter, .fourth-letter, .nineth-letter, .twelveth-letter, .fourteenth-letter, .eighteenth-letter{
+    color: #4285F4;
+}
+
+.second-letter, .sixth-letter, .tenth-letter, .fifteenth-letter{
+    color: 	#DB4437;
+}
+
+.third-letter, .seventh-letter, .eleventh-letter, .sixteenth-letter{
+    color: #F4B400;
+}
+
+.fifth-letter, .eight-letter, .thirteenth-letter, .seventeenth-letter{
+    color: #0F9D58;
+}
+
+.header1{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    align-items: center;
+}
+
+.first-section{
+    display: flex;
+    font-size: 40px;
+}
+
+.first-section div{
+    margin-right: 10px;
+}
+
+.first-section .twelveth-letter{
+    margin-right: 20px;
+}
+
+.first-section .fifteenth-letter{
+    margin-right: 20px;
+}
+
+.first-section div{
+    transition: transform .5s;
+}
+
+.first-section div:hover{
+    transform: scale(2.5);
+}
