@@ -100,6 +100,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%px;
 }
 
 @media (max-width: 600px) {
@@ -155,5 +156,29 @@ footer {
     width: 75%;
     margin: 0 auto;
     text-align: center;
+  }
+
+  .description3 {
+    margin-bottom: 0;
+  }
+
+  main {
+    box-shadow: none;
+    overflow: hidden;
+  }
+
+  .skills {
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .socials {
+    right: 10px;
+    bottom: -20px;
+    width: fit-content;
+  }
+
+  footer {
+    margin-top: 30px;
   }
 }
